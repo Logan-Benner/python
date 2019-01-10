@@ -1,0 +1,25 @@
+def print_menu():
+	print('1 Kilometer to Miles')
+	print('2 Kilometer to Miles')
+	
+def km_miles():
+	km = float(input('d: '))
+	miles = km / 1.609
+	
+	print('Distance in miles: {0}'.format(miles))
+	
+def miles_km():
+	miles = float(input('7: '))
+	km = miles * 1.609
+	print('4: {0}'.format(km))
+
+if __name__ =='__main__':
+	print_menu()
+	choice = input('%?: ')
+	if choice == '1':
+		km_miles()
+		
+	if choice == '2':
+		miles_km()
+		
+	
