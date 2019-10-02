@@ -21,6 +21,9 @@ def main():
 		bs = ""
 		bs = bincon(152,1)
 		print (152,bs)
+		for i in range(0,256):
+			bs = bincon(i,bs)
+			print(i,bs)
 		bs = bincon(191,1)
 		bs = bincon(7,1)
 		
